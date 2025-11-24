@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAT02_Matricula")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e45ea0a7ea9becfd6322669c1c1dab92b70ac4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64d4d25e92e6d8032706e09f7fec571d7776a08f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAT02_Matricula")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAT02_Matricula")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

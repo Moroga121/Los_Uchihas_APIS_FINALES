@@ -145,6 +145,70 @@ namespace Módulo_de_Ofertas_académica_ACD2
                 );
                 return (resultado);
             });
+
+
+            #region "Validar Que exista la Carrera"
+
+
+            group.MapGet("/validar", async ([FromServices] ICarreraService service, [FromQuery] string nombre, [FromHeader(Name = "access_token")] string accessToken, HttpClient httpClient) =>
+            {
+                // Validar token
+                var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:5001/login/validate");
+                request.Headers.Add("access_token", accessToken);
+
+                var response = await httpClient.SendAsync(request);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return Results.Json(new { mensaje = "No autorizado" }, statusCode: 401);
+                }
+
+                // Buscar la carrera por nombre
+                var carreras = await service.Obtener_Todas_Las_Carreras();
+                var encontrada = carreras.FirstOrDefault(c => c.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase));
+
+                if (encontrada == null)
+                {
+                    return Results.NotFound(new { mensaje = "La carrera no existe" });
+                }
+
+                // Devuelve el objeto completo
+                return Results.Ok(encontrada);
+            });
+
+            //group.MapGet("/validar", async ([FromServices] ICarreraService service, [FromQuery] string nombre, [FromHeader(Name = "access_token")] string accessToken, HttpClient httpClient) =>
+            //{
+            //    var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:5001/login/validate");
+            //    request.Headers.Add("access_token", accessToken);
+
+            //    var response = await httpClient.SendAsync(request);
+
+            //    if (!response.IsSuccessStatusCode)
+            //    {
+
+            //        return Results.Json(new { mensaje = "No autorizado" }, statusCode: 401);
+
+            //    }
+
+
+            //    var carreras = await service.Obtener_Todas_Las_Carreras();
+            //    var encontrada = carreras.FirstOrDefault(c => c.Nombre == nombre);
+
+            //    if (encontrada == null)
+            //    {
+
+            //        return Results.NotFound(new { existe = false });
+
+
+            //    }
+
+            //    return Results.Ok(new { existe = true, id = encontrada.ID_Carrera });
+            //});
+
+
+
+            #endregion
+
         }
     }
 }

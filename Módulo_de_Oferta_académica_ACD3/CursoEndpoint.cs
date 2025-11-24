@@ -144,6 +144,65 @@ namespace Módulo_de_Oferta_académica_ACD3
                 );
                 return (resultado);
             });
+
+
+            #region "Validar que exista el Curso"
+
+            group.MapGet("/validar", async ([FromServices] ICursoService service, [FromQuery] string nombre, [FromHeader(Name = "access_token")] string accessToken, HttpClient httpClient) =>
+            {
+                var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:5001/login/validate");
+                request.Headers.Add("access_token", accessToken);
+
+                var response = await httpClient.SendAsync(request);
+
+                if (!response.IsSuccessStatusCode)
+                    return Results.Json(new { mensaje = "No autorizado" }, statusCode: 401);
+
+                var cursos = await service.Obtener_Todos_Los_Cursos();
+
+                var encontrado = cursos.FirstOrDefault(c => c.Nombre == nombre);
+
+                if (encontrado == null)
+                    return Results.NotFound(new { existe = false, mensaje = "El curso no existe." });
+
+                // Devuelve el objeto completo
+                return Results.Ok(encontrado);
+            });
+
+            //group.MapGet("/validar", async ([FromServices] ICursoService service, [FromQuery] string nombre, [FromHeader(Name = "access_token")] string accessToken, HttpClient httpClient) =>
+            //{
+            //    var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:5001/login/validate");
+            //    request.Headers.Add("access_token", accessToken);
+
+            //    var response = await httpClient.SendAsync(request);
+
+            //    if (!response.IsSuccessStatusCode)
+            //    {
+
+            //        return Results.Json(new { mensaje = "No autorizado" }, statusCode: 401);
+
+            //    }
+
+            //    // Buscar el curso por nombre
+
+            //    var cursos = await service.Obtener_Todos_Los_Cursos();
+
+            //    var encontrado = cursos.FirstOrDefault(c => c.Nombre == nombre);
+
+            //    if (encontrado == null)
+            //    {
+
+            //        return Results.NotFound(new { existe = false, mensaje = "El curso no existe." });
+
+            //    }
+
+
+            //    return Results.Ok(new { existe = true, id = encontrado.ID_Curso });
+
+            //});
+
+            #endregion
+
         }
     }
 }

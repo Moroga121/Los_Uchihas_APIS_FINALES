@@ -135,6 +135,40 @@ namespace Módulo_de_Oferta_académica_ACD5
             })
             .WithName("EliminarPeriodo")
             .WithOpenApi();
+
+
+            #region "Validar Periodo"
+
+            group.MapGet("/validar", async ([FromServices] IPeriodoService service, [FromQuery] string id, [FromHeader(Name = "access_token")] string accessToken, HttpClient httpClient) =>
+            {
+                var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:5001/login/validate");
+                request.Headers.Add("access_token", accessToken);
+
+                var response = await httpClient.SendAsync(request);
+
+                if (!response.IsSuccessStatusCode)
+                {
+
+                    return Results.Json(new { mensaje = "No autorizado" }, statusCode: 401);
+
+                }
+
+
+                var (periodo, mensaje) = await service.Obtener_Periodo_Por_ID(id);
+
+                if (periodo == null)
+                {
+                    return Results.NotFound(new { existe = false });
+                }
+
+                // Devuelve la info completa del periodo
+                return Results.Ok(periodo);
+
+            });
+
+
+            #endregion
+
         }
     }
 }

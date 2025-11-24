@@ -7,51 +7,15 @@
         "Action": "Start"
       },
       {
-        "Path": "USR2_Roles\\USR2_Roles.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "USR3_Parametrización\\USR3_Parametrización.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "USR4_Modulos\\USR4_Modulos.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "USR5_Login\\USR5_Login.csproj",
         "Action": "Start"
       },
       {
-        "Path": "GEN01_Bitacora\\GEN01_Bitacora.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "Notificaciones\\Notificaciones.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "ACA1_Promedio\\ACA1_Promedio.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "ACA2_Historial\\ACA2_Historial.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "Facturacion\\Facturacion.csproj",
-        "Action": "Start"
+        "Action": "StartWithoutDebugging"
       },
       {
         "Path": "Simulacion_Notas\\Simulacion_Notas.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "MAT02_Matricula\\MAT02_Matricula.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "Pagos\\Pagos.csproj",
         "Action": "Start"
       },
       {
