@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEB41F94-266E-5011-BB51-AC1B302BFD2B}|USR5_Login\\USR5_Login.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\usr5_login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EEB41F94-266E-5011-BB51-AC1B302BFD2B}|USR5_Login\\USR5_Login.csproj|solutionrelative:usr5_login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{798A7679-702B-AE72-E5E2-FCFF29992915}|Proyecto_PrograV\\Proyecto_PrograV.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\proyecto_prograv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{798A7679-702B-AE72-E5E2-FCFF29992915}|Proyecto_PrograV\\Proyecto_PrograV.csproj|solutionrelative:proyecto_prograv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{243A273A-2C1D-43BC-8B23-620719EEA1EE}|M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\m\u00F3dulo_de_ofertas_acad\u00E9mica_acd2\\carreraendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{243A273A-2C1D-43BC-8B23-620719EEA1EE}|M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2.csproj|solutionrelative:m\u00F3dulo_de_ofertas_acad\u00E9mica_acd2\\carreraendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{243A273A-2C1D-43BC-8B23-620719EEA1EE}|M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\m\u00F3dulo_de_ofertas_acad\u00E9mica_acd2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{243A273A-2C1D-43BC-8B23-620719EEA1EE}|M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2.csproj|solutionrelative:m\u00F3dulo_de_ofertas_acad\u00E9mica_acd2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4DEF54D-1400-4CA1-8487-6676089158EE}|M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\m\u00F3dulo_de_oferta_acad\u00E9mica_acd5\\periodoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4DEF54D-1400-4CA1-8487-6676089158EE}|M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5.csproj|solutionrelative:m\u00F3dulo_de_oferta_acad\u00E9mica_acd5\\periodoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4DEF54D-1400-4CA1-8487-6676089158EE}|M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\m\u00F3dulo_de_oferta_acad\u00E9mica_acd5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B4DEF54D-1400-4CA1-8487-6676089158EE}|M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5.csproj|solutionrelative:m\u00F3dulo_de_oferta_acad\u00E9mica_acd5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{798A7679-702B-AE72-E5E2-FCFF29992915}|Proyecto_PrograV\\Proyecto_PrograV.csproj|c:\\users\\pc\\desktop\\proyecto_sitios_local\\los_uchika_apis_finales\\proyecto_prograv\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{798A7679-702B-AE72-E5E2-FCFF29992915}|Proyecto_PrograV\\Proyecto_PrograV.csproj|solutionrelative:proyecto_prograv\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\USR5_Login\\appsettings.json",
-              "RelativeDocumentMoniker": "USR5_Login\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\USR5_Login\\appsettings.json",
-              "RelativeToolTip": "USR5_Login\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T18:08:56.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\Proyecto_PrograV\\appsettings.json",
-              "RelativeDocumentMoniker": "Proyecto_PrograV\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\Proyecto_PrograV\\appsettings.json",
-              "RelativeToolTip": "Proyecto_PrograV\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T18:08:34.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarreraEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\CarreraEndpoint.cs",
-              "RelativeDocumentMoniker": "M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\CarreraEndpoint.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\CarreraEndpoint.cs",
-              "RelativeToolTip": "M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\CarreraEndpoint.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAANEAAAAWAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\Proyecto_PrograV\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Proyecto_PrograV\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\Proyecto_PrograV\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Proyecto_PrograV\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T18:08:01.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\appsettings.json",
-              "RelativeDocumentMoniker": "M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\appsettings.json",
-              "RelativeToolTip": "M\u00F3dulo_de_Ofertas_acad\u00E9mica_ACD2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T18:07:45.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PeriodoEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\PeriodoEndpoint.cs",
-              "RelativeDocumentMoniker": "M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\PeriodoEndpoint.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\PeriodoEndpoint.cs",
-              "RelativeToolTip": "M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\PeriodoEndpoint.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAAAKkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T18:07:16.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\appsettings.json",
-              "RelativeDocumentMoniker": "M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Proyecto_Sitios_Local\\Los_Uchika_APIS_FINALES\\M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\appsettings.json",
-              "RelativeToolTip": "M\u00F3dulo_de_Oferta_acad\u00E9mica_ACD5\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T18:06:59.033Z",
+              "WhenOpened": "2025-11-24T18:53:49.897Z",
               "EditorCaption": ""
             }
           ]
